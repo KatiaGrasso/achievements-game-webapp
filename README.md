@@ -819,12 +819,10 @@ URL: `/api/users/:userId/goals/:goalId`
 
 ## Users Credentials
 
-  
 
+ - matteo.neri@polito.it | Matteo | matteoneri98 
 
- - metteo.neri@polito.it | Matteo | matteoneri98 
+ - denis.longo@polito.it | Denis | denislongo! 
 
- - denislongo@polito.it | Denis | denislongo! 
-
-- lusylewis@polito.it | Lusy | lusy00! 
+- lusy.lewis@polito.it | Lusy | lusy00! 
 
