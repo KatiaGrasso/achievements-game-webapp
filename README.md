@@ -1,10 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hUwC007-)
+# Achievements Game Web Application
 
-# Exam #N:4 "Obiettivi"
+Gamified web application built with React and Node.js featuring a guess-the-number game enriched with a structured achievements system.
 
-## Student: s319878 GRASSO KATIA
+Originally developed as an individual university project, this application was later published on my personal GitHub for portfolio purposes.
+The focus of the project is on application architecture, API design, state management, and gamification logic.
 
-  
+Tech stack: React, Node.js, Express, SQLite, Passport.js
 
 ## React Client Application Routes
 
