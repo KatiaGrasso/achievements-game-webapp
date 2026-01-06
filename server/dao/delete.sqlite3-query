@@ -1,0 +1,7 @@
+-- database: c:\Users\flomi\Desktop\WebApp\Esame\esame4-obiettivi-KatiaGrasso\server\objectives.db
+
+SELECT * FROM games;
+DELETE FROM games;
+DELETE FROM sqlite_sequence WHERE name='games';
+DELETE FROM user_goals;
+DELETE FROM sqlite_sequence WHERE name='user_goals';

@@ -1,0 +1,98 @@
+
+## Log In
+POST http://localhost:3001/api/sessions HTTP/1.1
+content-type: application/json
+
+{
+    "username": "matteo.neri@polito.it",
+    "password": "matteoneri98"
+}
+
+###
+
+## Checking if user is still logged-in.
+GET http://localhost:3001/api/sessions/current HTTP/1.1
+###
+
+## New game 
+POST http://localhost:3001/api/games HTTP/1.1
+content-type: application/json 
+
+{
+    "user_id":1,
+    "difficulty": 4,
+    "game_status": "won",
+    "attempts": 1
+}
+###
+
+## Retrieve all games
+GET http://localhost:3001/api/games HTTP/1.1
+###
+
+## Retrieve a specific game by ID
+GET http://localhost:3001/api/games/3 HTTP/1.1
+###
+
+## Update an existing game
+PUT http://localhost:3001/api/games/12 HTTP/1.1
+content-type: application/json
+
+{
+    "user_id": 1,
+    "difficulty": 3,
+    "attempts": 1,
+    "secret_number" : 900,
+    "game_status": "won"
+}
+###
+
+## Delete a game
+DELETE http://localhost:3001/api/games/11 HTTP/1.1
+###
+
+
+## Retrieve all objectives
+GET http://localhost:3001/api/objectives HTTP/1.1
+
+###
+
+## Retrieve a specific objective by ID
+GET http://localhost:3001/api/objectives/3 HTTP/1.1
+###
+
+## Add a new objective
+POST http://localhost:3001/api/objectives HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Esempio Obiettivo",
+    "description": "Completa il livello entro 5 minuti.",
+    "condition": "Esempio condizione",
+    "icon": "clock.png",
+    "repeatable": true
+}
+###
+
+## Update an existing objective
+PUT http://localhost:3001/api/objectives/11 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "K-Inizio",
+    "description": "Vinci una partita a difficoltà ",
+    "condition": "Vinci a difficoltà 1",
+    "icon": "trophy.png",
+    "repeatable": false
+}
+###
+## Delete an objective
+DELETE http://localhost:3001/api/objectives/11 HTTP/1.1
+###
+
+
+## Retrieve all users' goals
+GET http://localhost:3001/api/users/1/goals HTTP/1.1
+
+###
+
